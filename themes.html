@@ -1,0 +1,57 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="themes">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html" class="ui-btn-active ui-state-persist">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Themes</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<!--Copy more from <ul *to* /ul> if more themes needed-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Solitude as the function of independence</li>
+					<li data-theme="d">Edna grows as a women throughout The Awakening</li>
+					<li data-theme="c">Woman during the 19th century were very limited in what they were allowed to do socially, they were expected to be mothers formost and often forbidden from expressing themselves</li>
+					<li data-theme="d">Edna longs for independence and the ability to express herself, she initially finds this through swimming and painting</li>
+					<li data-theme="c">However when she tries to express her desire for independence and expression she runs into problems with men, particularly her husband, who believe a woman's role should not include expressing herself</li>
+					<li data-theme="d">Edna realizes that she can not be independent and still connect to the rest of society</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Self-expression's implications</li>
+					<li data-theme="d">Edna's growth and self expression allows her to learn new languages, find a passion for art, and express her emotions</li>
+					<li data-theme="c">She is very sophisticated and well educated for women of her time, yet she grows more distant from the rest of society</li>
+					<li data-theme="d">Her new found beliefs and skills leave her isolated as she does not seem to connect with many people</li>
+					<li data-theme="c">She takes her own life as her self expression has seem to make her an outcast</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>The Awakening</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>
